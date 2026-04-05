@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:form_validation/screens/home/home_screen.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+import 'home_page.dart';
 
-void main(){
-  runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Hive.initFlutter();
+  await Hive.openBox('todoBox');
+
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -12,7 +18,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      theme: ThemeData(
+        primarySwatch: Colors.yellow,
+        scaffoldBackgroundColor: Colors.grey[100],
+      ),
+      home: const MyHomePage(),
     );
   }
 }
