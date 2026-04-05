@@ -38,9 +38,10 @@ flutter run
 
 ```
 lib/
- ┣ models/
- ┣ screens/
- ┣ widgets/
+ ┣ database/
+ ┣ utils/
+ - home_page.dart
+main.dart
  ┗ main.dart
 ```
 
