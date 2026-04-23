@@ -4,7 +4,7 @@ A simple Flutter project demonstrating the use of **Row** and **Column** widgets
 
 ## 📱 Screenshot
 
-<img src="screenshots/home.png" width="300">
+<img src="screenshot/home.png" width="300">
 
 ## 🚀 Features
 
