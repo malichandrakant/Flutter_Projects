@@ -1,62 +1,38 @@
-# 📝 Flutter Todo App
+# Flutter Row & Column Demo
 
-A simple and clean Todo application built using Flutter to manage daily tasks efficiently.
+A simple Flutter project demonstrating the use of **Row** and **Column** widgets to build UI layouts.
+
+## 📱 Screenshot
+
+<img src="screenshots/home.png" width="300">
 
 ## 🚀 Features
 
-* ➕ Add new tasks
-* ✅ Mark tasks as completed
-* 🗑️ Delete tasks
-* 📱 Responsive UI for Android & iOS
-
-## 📸 Screenshots
-
-(Add your app screenshots here)
+* Vertical layout using Column
+* Horizontal layout using Row
+* Spacing using SizedBox
+* Multiple containers with different colors
+* Nested layouts
 
 ## 🛠️ Tech Stack
 
 * Flutter
 * Dart
 
-## 📦 Getting Started
+## 📚 Learning Outcomes
 
-### Prerequisites
+* Difference between Row and Column
+* mainAxisAlignment vs crossAxisAlignment
+* How to manage spacing between widgets
+* Handling layout overflow
 
-* Install Flutter SDK
-* Install Android Studio / VS Code
-
-### Installation
+## ▶️ Run Locally
 
 ```bash
-git clone https://github.com/your-username/flutter-todo-app.git
-cd flutter-todo-app
 flutter pub get
 flutter run
 ```
 
-## 📁 Project Structure
+## 📌 Note
 
-```
-lib/
- ┣ database/
- ┣ utils/
- - home_page.dart
-main.dart
- ┗ main.dart
-```
-
-## 🌟 Future Improvements
-
-* 💾 Local storage 
-     Hive
-* ☁️ Cloud sync
-* ✏️ Edit tasks
-* 🌙 Dark mode
-
-## 🤝 Contributing
-
-Pull requests are welcome. Feel free to open issues for suggestions or improvements.
-
-## 📄 License
-
-This project is licensed under the MIT License.
+This project is created to practice Flutter layout concepts and improve UI design skills.
