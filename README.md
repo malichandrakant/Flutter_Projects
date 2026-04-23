@@ -1,57 +1,35 @@
-# Form Validation App (Flutter)
+# Flutter Clickable Demo (GestureDetector & InkWell)
 
-A Flutter application demonstrating basic form validation using `Form` and `TextFormField`.
-
+A simple Flutter project demonstrating gesture handling using `GestureDetector` and `InkWell`.
 
 ## Features
 
-- Name validation  
-- Email validation  
-- Phone number validation  
-- Password validation  
-- Confirm password matching  
-- Real-time error messages  
-
-
+- Tap detection using GestureDetector  
+- Long press detection  
+- InkWell ripple effect on tap  
+- Basic UI interaction handling  
+- Comparison of GestureDetector vs InkWell usage  
 
 ## Tech Stack
-
 - Flutter  
 - Dart  
-- Material Design  
 
----
+## Concepts Covered
+### GestureDetector
+- Detects user gestures without visual effects
+- Used for custom interactions
 
-## Validation Rules
-
-**Name**
-- Required field  
-- Only letters allowed  
-
-**Email**
-- Must follow valid email format  
-
-**Phone**
-- Must be 10 digits  
-- Numbers only  
-
-**Password**
-- Minimum 6 characters  
-
-**Confirm Password**
-- Must match password field  
-
----
+### InkWell
+- Provides ripple effect on tap
+- Used in Material UI components like cards and buttons
 
 ## Project Structure
 
-```text
 lib/
 │
 ├── main.dart
-├── home/
-│   └── home_screen.dart
+├── screens/
+│   └── gesture_screen.dart
 
 📸 Screenshots
-Create Account Screen
-(screenshot/create_account.png)
+(screenshot/screen.png)

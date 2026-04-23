@@ -1,5 +1,5 @@
+import 'package:clickable_widget/home/home_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:form_validation/home/home_screen.dart';
 
 void main() {
   runApp(MyApp());
