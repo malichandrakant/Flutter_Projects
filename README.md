@@ -28,8 +28,8 @@ A simple Flutter project demonstrating gesture handling using `GestureDetector` 
 lib/
 │
 ├── main.dart
-├── screens/
-│   └── gesture_screen.dart
+├── home/
+│   └── home_screen.dart
 
 📸 Screenshots
 (screenshot/screen.png)
