@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gridview/home/home_screen.dart';
+import 'package:navigation_drawer/home/home_screen.dart';
 
 void main() {
   runApp(MyApp());
