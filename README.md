@@ -29,7 +29,7 @@ It includes essential features used in real-world applications such as **email &
 
 ## 📸 Screenshot
 
-![Login Screen](assets/images/login.png)
+(lib/screenshot/login_screen.png)
 
 > 📌 Make sure your screenshot is placed correctly inside the assets folder.
 
