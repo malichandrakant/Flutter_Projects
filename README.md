@@ -33,7 +33,7 @@ The main goal is to understand how to place widgets **on top of each other** and
 
 ## 📸 Output Screenshot
 
-![App Screenshot](screenshot/stack_positioned_img.png)
+(screenshot/stack_positioned_img.png)
 
 > 📌 Make sure to place your screenshot inside an `screenshot` folder and update the path if needed.
 
@@ -52,7 +52,7 @@ flutter run
 lib/
  └── main.dart
 screenshot/
- └── screenshot.png
+ └── stack_positioned_img.png
 
 ## 🎯 Learning Outcome
 
