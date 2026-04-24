@@ -1,64 +1,80 @@
-# 📱 Flutter Stack & Positioned Widget Demo
+# 📱 Flutter Login Page & Form Validation – Responsive Design
 
 ## 🚀 Overview
 
-This project demonstrates the use of **Stack** and **Positioned** widgets in Flutter to create layered UI designs.
+This project demonstrates a **modern Flutter Login Screen** with **form validation and responsive UI design**.
 
-The main goal is to understand how to place widgets **on top of each other** and control their exact position on the screen.
+It includes essential features used in real-world applications such as **email & password validation, UI styling, and structured layout**.
 
-## 🧠 Concepts Covered
 
-### 🔹 Stack Widget
+## ✨ Features
 
-* Used to **overlay multiple widgets**
-* Works like layers (one widget above another)
-* Useful for creating modern UI designs
+* 🔐 Email & Password Login Form
+* ✅ Form Validation using `TextFormField`
+* 👁️ Show/Hide Password Toggle
+* 🎨 Modern UI with Gradient Background
+* 📱 Responsive Layout (works on different screen sizes)
+* 🔘 Styled Buttons (ElevatedButton, TextButton)
+* 🔗 “Forgot Password” and “Sign Up” actions
 
-### 🔹 Positioned Widget
+## 🧠 Concepts Used
 
-* Used inside Stack
-* Helps to place widgets using:
+* `StatefulWidget`
+* `TextEditingController`
+* `GlobalKey<FormState>`
+* `Form` & `TextFormField`
+* Input Validation using functions
+* `SingleChildScrollView` (to avoid overflow)
+* Custom UI design with `Container`, `BoxDecoration`, `Gradient`
 
-  * `top`
-  * `bottom`
-  * `left`
-  * `right`
+## 📸 Screenshot
 
-## 🛠️ Features
+![Login Screen](assets/images/login.png)
 
-* Background container
-* Text overlay on UI
-* Positioned elements using exact coordinates
-* Clean and simple layout for understanding
+> 📌 Make sure your screenshot is placed correctly inside the assets folder.
 
-## 📸 Output Screenshot
+## 🛠️ Project Structure
 
-(lib/screenshot/stack_positioned_img.png)
-
-> 📌 Make sure to place your screenshot inside an `screenshot` folder and update the path if needed.
-
-## 💡 Real World Use Cases
-
-* Profile image with online status indicator
-* Image with text overlay (Instagram style)
-* Notification badge on icons
-* Cards with floating buttons
+```
+lib/
+ └── login/login_screen.dart
+assets/
+ └── images/
+      └── login.png
 
 ## 🧪 How to Run
+
 flutter pub get
 flutter run
-## 📂 Project Structure
 
-lib/
- └── main.dart
-screenshot/
- └── stack_positioned_img.png
 
-## 🎯 Learning Outcome
+## 🔐 Validation Logic
 
-* Understanding of layered UI design
-* Practical use of Stack and Positioned
-* Improved Flutter layout skills
+### Email Validation
+
+* Required field
+* Must follow proper email format
+
+### Password Validation
+
+* Minimum 6 characters
+* Cannot be empty
+
+
+## 💡 Learning Outcome
+
+* How to build a **login UI from scratch**
+* How to implement **form validation in Flutter**
+* How to design **responsive and modern UI**
+* Understanding **user input handling**
+
+## 🎯 Future Improvements
+
+* 🔗 API Integration (Login functionality)
+* ⏳ Loading Indicator on button click
+* ❌ Error handling & messages
+* 📝 Sign Up & Forgot Password screens
 
 ## 🙌 Author
-Chandrakant Mali
+
+**Chandrakant Mali**
