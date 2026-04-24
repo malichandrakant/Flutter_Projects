@@ -12,80 +12,31 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ListView and ListTile Widget Demo"),
-        backgroundColor: Colors.yellow,
-        centerTitle: true,
-        titleTextStyle: TextStyle(fontWeight: FontWeight(200)),
+        backgroundColor: Colors.amberAccent,
+        title: Text(
+          "Stack and Positioned Widget",
+          style: TextStyle(fontWeight: FontWeight(200)),
+        ),
       ),
-
-      body: ListView(
-        padding: EdgeInsets.all(10),
+      body: Stack(
         children: [
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 1"),
+          Positioned(
+            right: 0,
+            bottom: 0,
+            child: Container(
+              width: 100,
+              height: 100,
+              color: const Color.fromARGB(255, 255, 6, 101),
+            ),
           ),
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 2"),
-          ),
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 3"),
-          ),
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 4"),
-          ),
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 5"),
-          ),
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 6"),
-          ),
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 7"),
-          ),
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 8"),
-          ),
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 9"),
-          ),
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 10"),
-          ),
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10),
-            color: Colors.blue,
-            height: 100,
-            child: Text("List 11"),
+          Positioned(
+            right: 0,
+            left: 0,
+            child: Container(
+              width: 100,
+              height: 100,
+              color: const Color.fromARGB(255, 10, 255, 6),
+            ),
           ),
         ],
       ),

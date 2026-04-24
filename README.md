@@ -1,38 +1,64 @@
-# 📱 Flutter ListView & ListTile Practical
+# 📱 Flutter Stack & Positioned Widget Demo
 
-## 📌 Project Overview
-This is a basic Flutter practical project demonstrating the use of **ListView** and **ListTile** widgets to display a simple scrollable list UI.
+## 🚀 Overview
 
-## 🎯 Objective
-- Understand how ListView works in Flutter  
-- Learn how to use ListTile for structured UI  
-- Build a simple scrollable list screen  
+This project demonstrates the use of **Stack** and **Positioned** widgets in Flutter to create layered UI designs.
 
-## 🛠️ Technologies Used
-- Flutter  
-- Dart  
+The main goal is to understand how to place widgets **on top of each other** and control their exact position on the screen.
 
-## 📸 Screenshots
+## 🧠 Concepts Covered
 
-### 🖼️ Home Screen
-!(screenshot/screen.png)
+### 🔹 Stack Widget
 
-> Note: Add your screenshots inside a folder named **screenshot** in your project directory.
+* Used to **overlay multiple widgets**
+* Works like layers (one widget above another)
+* Useful for creating modern UI designs
 
-## 💡 Key Learnings
-- Creating scrollable lists using ListView  
-- Using ListTile for better UI structure  
-- Handling icons, titles, and subtitles in list items  
-- Understanding basic Flutter UI layout  
+### 🔹 Positioned Widget
 
+* Used inside Stack
+* Helps to place widgets using:
+
+  * `top`
+  * `bottom`
+  * `left`
+  * `right`
+
+## 🛠️ Features
+
+* Background container
+* Text overlay on UI
+* Positioned elements using exact coordinates
+* Clean and simple layout for understanding
+
+## 📸 Output Screenshot
+
+![App Screenshot](screenshot/stack_positioned_img.png)
+
+> 📌 Make sure to place your screenshot inside an `screenshot` folder and update the path if needed.
+
+## 💡 Real World Use Cases
+
+* Profile image with online status indicator
+* Image with text overlay (Instagram style)
+* Notification badge on icons
+* Cards with floating buttons
+
+## 🧪 How to Run
+flutter pub get
+flutter run
 ## 📂 Project Structure
-- lib/
-  - main.dart  
-- screenshot/
-  - screen.png  
 
-## 🚀 Conclusion
-This practical helps in building a foundation for real-world apps like contact lists, settings pages, chat lists, and product listings.
+lib/
+ └── main.dart
+screenshot/
+ └── screenshot.png
 
-## 👨‍💻 Author
+## 🎯 Learning Outcome
+
+* Understanding of layered UI design
+* Practical use of Stack and Positioned
+* Improved Flutter layout skills
+
+## 🙌 Author
 Chandrakant Mali
