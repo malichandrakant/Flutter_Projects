@@ -50,8 +50,6 @@ lib/
 
 (lib/screenshot/http_methods_screen.png) 
 
-lib/screenshot/http_methods_screen.png
-
 ## ▶️ Run Project
 
 flutter pub get
