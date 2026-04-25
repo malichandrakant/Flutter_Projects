@@ -1,84 +1,75 @@
-# 📱 Single Post API Integration (Flutter)
+# 🚀 Flutter HTTP Methods Demo
 
-This project demonstrates how to fetch and display a **single post from an API** using Flutter.
-It is a beginner-friendly example of API integration, JSON parsing, and UI rendering.
-
-
-## 🚀 Features
-
-* Fetch data from REST API
-* Parse JSON into Dart model
-* Display data on UI
-* Loading indicator while fetching data
-* Error handling (basic)
+A simple Flutter application demonstrating how to perform HTTP operations (POST, PUT, PATCH, DELETE) using REST APIs.
 
 
-## 🛠️ Tech Stack
+## 📱 Features
+
+* Perform HTTP requests:
+
+  * POST
+  * PUT
+  * PATCH
+  * DELETE
+* Display API response and status code
+* Loading indicator during API calls
+* Clean and responsive UI using Grid layout
+
+
+## 🛠 Tech Stack
 
 * Flutter
 * Dart
-* HTTP package
+* http package
 
-## 🌐 API Used
+## 📦 Dependencies
 
-* https://jsonplaceholder.typicode.com/posts/1
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+
 
 ## 📂 Project Structure
 
 lib/
-│
-├── screen/
-│   ├── api_services.dart       # API calling logic
-│   ├── single_post_model.dart # Model class
-│   └── screen_with_model.dart # UI screen
-│
-└── main.dart
+ └── screen/home_screen.dart
+
+## ⚙️ How It Works
+
+* Each button triggers a specific HTTP method
+* API requests are handled using a reusable function
+* Response and status code are displayed at the bottom
+* Loading indicator is shown during network calls
+
+## 🌐 API Used
+
+* https://jsonplaceholder.typicode.com/posts
 
 ## 📸 Screenshots
 
-### 🔹 Output Screen
+(lib/screenshot/http_methods_screen.png) 
 
-(lib/screenshot/single_post.png)
+lib/screenshot/http_methods_screen.png
 
-## ⚙️ Setup Instructions
-
-1. Clone the repository
-
-git clone <single_data_api>
-
-2. Navigate to project
-
-cd single_data_api
-
-3. Install dependencies
+## ▶️ Run Project
 
 flutter pub get
-
-4. Run the app
-
 flutter run
 
 
-## 🧠 Learning Outcomes
+## ✨ Future Improvements
 
-* Understanding API integration in Flutter
-* Working with `Future` and async/await
-* JSON decoding and model creation
-* State management using `setState()`
+* Add GET API with ListView
+* Form input for POST requests
+* Error handling UI (Snackbar)
+* State management (Provider / Riverpod)
+* Clean architecture (Service layer + DI)
 
-## ❗ Important Notes
-
-* Ensure internet permission is added in AndroidManifest.xml:
-
-<uses-permission android:name="android.permission.INTERNET"/>
-
-## 🙌 Author
+## 👨‍💻 Author
 
 Chandrakant Mali
 
-## ⭐ Future Improvements
+## ⭐ Note
 
-* Add multiple posts (List API)
-* Use FutureBuilder
-* Add error UI
-* Implement POST API
+This project is created for learning API integration and understanding HTTP methods in Flutter.
