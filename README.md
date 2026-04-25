@@ -1,63 +1,84 @@
-# 📱 Flutter GridView Product UI
+# 📱 Single Post API Integration (Flutter)
 
-## 🚀 Overview
+This project demonstrates how to fetch and display a **single post from an API** using Flutter.
+It is a beginner-friendly example of API integration, JSON parsing, and UI rendering.
 
-This project demonstrates a **Flutter GridView implementation** to display product images in a structured grid layout. It is a simple UI-based project to understand how GridView works in real-world applications like e-commerce apps.
 
-## ✨ Features
+## 🚀 Features
 
-* 🧱 GridView layout for products
-* 🖼️ Asset image rendering
-* 📱 Responsive grid structure
-* 🎨 Clean UI with spacing and fit
-* ⚡ Optimized layout using Flutter widgets
+* Fetch data from REST API
+* Parse JSON into Dart model
+* Display data on UI
+* Loading indicator while fetching data
+* Error handling (basic)
 
-## 🧠 Concepts Learned
 
-* GridView widget
-* GridView.count usage
-* Asset image handling
-* BoxFit.cover for image scaling
-* Basic UI structuring in Flutter
+## 🛠️ Tech Stack
 
-## 📸 Screenshot
+* Flutter
+* Dart
+* HTTP package
 
-> Add your project screenshot below
+## 🌐 API Used
 
-(assets/images/screenshot.png)
+* https://jsonplaceholder.typicode.com/posts/1
 
-## 🛠️ Project Structure
+## 📂 Project Structure
 
 lib/
- └── home/home_screen.dart
+│
+├── screen/
+│   ├── api_services.dart       # API calling logic
+│   ├── single_post_model.dart # Model class
+│   └── screen_with_model.dart # UI screen
+│
+└── main.dart
 
-assets/
- └── images/
-      ├── product1.jpeg
-      ├── product2.jpeg
-      ├── product3.jpeg
-      ├── product4.jpeg
-      └── product5.jpeg
+## 📸 Screenshots
 
-## ▶️ How to Run
+### 🔹 Output Screen
+
+(lib/screenshot/single_post.png)
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository
+
+git clone <single_data_api>
+
+2. Navigate to project
+
+cd single_data_api
+
+3. Install dependencies
 
 flutter pub get
+
+4. Run the app
+
 flutter run
 
-## 💡 What I Learned
 
-* How GridView displays items in rows and columns
-* How to manage multiple images efficiently
-* Importance of layout spacing and structure
-* Basic UI optimization techniques in Flutter
+## 🧠 Learning Outcomes
 
-## 🔥 Future Improvements
+* Understanding API integration in Flutter
+* Working with `Future` and async/await
+* JSON decoding and model creation
+* State management using `setState()`
 
-* Add product name and price
-* Convert to GridView.builder for dynamic data
-* Connect with API (real products)
-* Add click navigation to product details page
+## ❗ Important Notes
+
+* Ensure internet permission is added in AndroidManifest.xml:
+
+<uses-permission android:name="android.permission.INTERNET"/>
 
 ## 🙌 Author
-**Chandrakant Mali**
 
+Chandrakant Mali
+
+## ⭐ Future Improvements
+
+* Add multiple posts (List API)
+* Use FutureBuilder
+* Add error UI
+* Implement POST API
