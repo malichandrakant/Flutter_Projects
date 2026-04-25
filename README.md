@@ -25,8 +25,11 @@ A simple Flutter application demonstrating how to perform HTTP operations (POST,
 ## 📦 Dependencies
 
 dependencies:
+
   flutter:
+  
     sdk: flutter
+    
   http: ^1.2.0
 
 
