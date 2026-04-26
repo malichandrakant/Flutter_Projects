@@ -35,7 +35,7 @@ lib/
 
 
 ## 📸 Screenshots
-[Profile](assets/screenshots/profile.png) |
+[Profile](lib/screenshot/bottom_navigation_bar_screen.png) |
 
 
 ## ▶️ Run Project
