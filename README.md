@@ -35,7 +35,8 @@ lib/
 
 
 ## 📸 Screenshots
-[profile].(lib/screenshot/bottom_navigation_bar_screen.png) |
+
+(lib/screenshot/bottom_navigation_bar_screen.png) |
 
 
 ## ▶️ Run Project
