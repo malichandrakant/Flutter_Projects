@@ -1,44 +1,43 @@
-# 📱 Flutter URL Launcher Demo
+# 📱 Flutter Bottom Navigation Demo
 
-A simple Flutter application demonstrating how to use the `url_launcher` package to perform common actions like making phone calls, sending emails, SMS, and opening web links.
+A simple Flutter application demonstrating how to implement a **Bottom Navigation Bar** to switch between multiple screens.
 
 ## 🚀 Features
-* 🌐 Open website links
-* 📞 Make phone calls
-* 📧 Send emails
-* 💬 Send SMS
 
-* Clean and simple UI for demonstration
+* Bottom navigation with 3 tabs:
 
+  * Home
+  * Search
+  * Profile
+* Smooth screen switching using `setState`
+* Persistent UI using `IndexedStack`
+* Clean and responsive layout
 ## 🛠 Tech Stack
 
 * Flutter
 * Dart
-* url_launcher package
-
-## 📦 Dependencies
-dependencies:
-  flutter:
-    sdk: flutter
-  url_launcher: ^6.2.5
 
 ## 📂 Project Structure
+
 lib/
- └── home/home_screen.dart
+    home/
+ └── bottom_navigation_screen.dart
+ /
+    screenshot/
  └── main.dart
 
+
 ## ⚙️ How It Works
+* Uses `BottomNavigationBar` for navigation
+* Maintains selected tab using `currentIndex`
+* Displays screens dynamically based on selected index
+* Uses `IndexedStack` to preserve screen state
 
-* Uses `url_launcher` to trigger platform-specific actions
-* Each button calls a different URL scheme:
-  * `https:` → web link
-  * `tel:` → phone call
-  * `mailto:` → email
-  * `sms:` → message
 
-* Handles launching using `launchUrl()`
 ## 📸 Screenshots
-(lib/screenshot/quick_contact_screen.png) 
+[Profile](assets/screenshots/profile.png) |
+
+
 ## ▶️ Run Project
 
 flutter pub get
@@ -46,10 +45,15 @@ flutter run
 
 ## ✨ Future Improvements
 
-* Add error handling (cannot launch cases)
-* Add input fields for dynamic data
-* Improve UI/UX
-* Add platform-specific handling
+* Add real screens instead of placeholders
+* Integrate API data in each tab
+* Add icons animation
+* Use state management (Provider / Riverpod)
 
 ## 👨‍💻 Author
+
 Chandrakant Mali
+
+## ⭐ Note
+
+This project is created to understand bottom navigation and screen management in Flutter.

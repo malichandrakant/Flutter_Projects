@@ -1,5 +1,5 @@
+import 'package:bottom_navigationbar/home/bottom_navigation_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher_app/home/home_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,6 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomeScreen());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: BottomNavigation(),
+    );
   }
 }
