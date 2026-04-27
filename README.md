@@ -1,60 +1,45 @@
-# 📱 Flutter Bottom Navigation Demo
 
-A simple Flutter application demonstrating how to implement a **Bottom Navigation Bar** to switch between multiple screens.
+
+# 📱 Flutter Navigation Demo (Push, Pop, Routes & Data Passing)
+
+This project demonstrates **Flutter Navigation concepts** including screen transitions, named routes, and passing data between screens. It is built for learning how real Flutter apps handle navigation flow.
 
 ## 🚀 Features
 
-* Bottom navigation with 3 tabs:
+* Navigate between screens using `Navigator.push()`
+* Go back using `Navigator.pop()`
+* Named routes implementation
+* Pass data between screens using constructor
+* Return data from a screen
+* Simple multi-screen app flow
 
-  * Home
-  * Search
-  * Profile
-* Smooth screen switching using `setState`
-* Persistent UI using `IndexedStack`
-* Clean and responsive layout
+## 🧠 Concepts Used
+
+* Navigator.push / pop
+* MaterialPageRoute
+* Named Routes
+* Constructor-based data passing
+* Basic state flow between screens
+
+## 📂 Project Structure
+lib/
+ ├── main.dart
+ ├── screens/
+ │     ├── home_screen.dart
+ │     ├── profile_screen.dart
+ │     
+
+## 📸 Screenshots
+
+("lib/screenshots/first_screen.png")
+("lib/screenshots/profile_screen.png")
+## 🎯 Learning Outcome
+
+* Understand Flutter navigation flow
+* Learn screen-to-screen communication
+* Build real app structure basics
+
 ## 🛠 Tech Stack
 
 * Flutter
 * Dart
-
-## 📂 Project Structure
-
-lib/
-    home/
- └── bottom_navigation_screen.dart
- /
-    screenshot/
- └── main.dart
-
-
-## ⚙️ How It Works
-* Uses `BottomNavigationBar` for navigation
-* Maintains selected tab using `currentIndex`
-* Displays screens dynamically based on selected index
-* Uses `IndexedStack` to preserve screen state
-
-
-## 📸 Screenshots
-
-(lib/screenshot/bottom_navigation_bar_screen.png) |
-
-
-## ▶️ Run Project
-
-flutter pub get
-flutter run
-
-## ✨ Future Improvements
-
-* Add real screens instead of placeholders
-* Integrate API data in each tab
-* Add icons animation
-* Use state management (Provider / Riverpod)
-
-## 👨‍💻 Author
-
-Chandrakant Mali
-
-## ⭐ Note
-
-This project is created to understand bottom navigation and screen management in Flutter.
