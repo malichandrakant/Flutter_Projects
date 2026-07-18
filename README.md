@@ -31,8 +31,10 @@ lib/
 
 ## 📸 Screenshots
 
-("screenshot/home.png")
-("screenshot/screenshot.png")
+## Home Screen
+
+![Home Screen](screenshot/home.png)
+![Screenshot](screenshot/screenshot.png)
 ## 🎯 Learning Outcome
 
 * Understand Flutter navigation flow
