@@ -31,8 +31,8 @@ lib/
 
 ## 📸 Screenshots
 
-("lib/screenshots/first_screen.png")
-("lib/screenshots/profile_screen.png")
+("screenshot/home.png")
+("screenshot/screenshot.png")
 ## 🎯 Learning Outcome
 
 * Understand Flutter navigation flow
